@@ -3,9 +3,7 @@ import { DEFAULT_API_URL, getStateInstance } from "../api.js";
 
 export default function Login({ onLogin }) {
   const [idInstance, setId] = useState("310022756735");
-  const [apiTokenInstance, setToken] = useState(
-    "eea66744d4724e6285e822085e317409650f6e0f00054c6d85",
-  );
+  const [apiTokenInstance, setToken] = useState("");
   const [apiUrl, setApiUrl] = useState(DEFAULT_API_URL);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
